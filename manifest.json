@@ -1,0 +1,18 @@
+{
+  "manifest_version":2,
+  "name":"Wordbox",
+  "version":"0.1",
+  
+  "description":"Autosaving textbox",
+  "icons":{
+    "48":"assets/images/logo/48.png",
+    "128":"assets/images/logo/128.png"
+  },
+
+  "browser_action":{
+    "default_icon":{
+      "19":"assets/images/action/on-19.png"
+    },
+    "default_popup":"popup.html"
+  }
+}

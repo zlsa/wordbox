@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3122"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   width="128"
+   height="128"
+   sodipodi:docname="128.svg">
+  <metadata
+     id="metadata3128">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3126" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview3124"
+     showgrid="true"
+     inkscape:zoom="32"
+     inkscape:cx="27.853501"
+     inkscape:cy="-2.965747"
+     inkscape:current-layer="svg3122"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3132"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="64,16"
+       id="guide4041" />
+  </sodipodi:namedview>
+  <path
+     style="fill:#2299dd;fill-opacity:1;stroke:none"
+     d="M 24 8 C 15.136 8 8 15.136 8 24 L 8 104 C 8 112.864 15.136 120 24 120 L 104 120 C 112.864 120 120 112.864 120 104 L 120 24 C 120 15.136 112.864 8 104 8 L 24 8 z M 28 28 L 48 28 L 48 104 L 28 104 L 28 28 z M 80 28 L 100 28 L 100 104 L 80 104 L 80 28 z M 54 52 L 74 52 L 74 104 L 54 104 L 54 52 z "
+     id="rect4028" />
+  <path
+     style="fill:#000000;fill-opacity:0.25098039;stroke:none"
+     d="m 28,104 16,16 60,0 c 9,0 16,-7 16,-16 l 0,-56 -20,-20 0,76 -20,0 0,-46 -6,-6 0,52 -19.782262,0 L 54,52 72,52 48,28 l 0,76 z"
+     id="path3863"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccccccc" />
+</svg>
