@@ -3,6 +3,7 @@
   <head>
     <title>Wordbox</title>
     <link rel="stylesheet" href="assets/style/main.css" />
+    <script src="assets/scripts/markdown.min.js"></script>
     <script src="assets/scripts/main.js"></script>
   </head>
   <body>
@@ -11,8 +12,10 @@
         <li id="tab-0" class="tab active"><span class="name">Default</span><a class="remove"></a></li>
         <li id="tab-0" class="tab"><span class="name">Misc</span><a class="remove"></a></li>
       </ul>
+      <div id="view-toggle" title="toggle view mode"></div>
     </header>
     <textarea id="text" placeholder="Type something here..." autofocus="true"></textarea>
+    <div id="view"></div>
     <div id="loading"></div>
   </body>
 </html>

@@ -1,0 +1,122 @@
+
+#view {
+  background: #fff;
+  box-shadow: 0 0 100px #aaa;
+
+  padding: 5px 10px;
+  font-size: 90%;
+  display: block;
+
+  -webkit-transform: perspective(600px) rotateY(-90deg);
+  -webkit-perspective-origin: 100% 0%;
+  -webkit-transform-origin: 100% 50%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+  overflow-y: auto;
+
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  user-select: auto;
+}
+
+html.loaded #view {
+  transition: -webkit-transform 0.5s ease;
+}
+
+html.view #view {
+  -webkit-transform: perspective(600px) rotateY(0deg);
+  
+  pointer-events: auto;
+}
+
+#view::-webkit-scrollbar {
+  width: 6px;
+}
+
+#view::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+#view::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+}
+
+#view::-webkit-scrollbar-thumb:active {
+  background-color: #2299dd;
+}
+
+#view em {
+  text-style: italic;
+}
+
+#view strong {
+  font-weight: bold;
+}
+
+#view a[href] {
+  color: #29d;
+}
+
+#view a[href]:hover {
+  cursor: pointer;
+}
+
+#view ul {
+  margin: 8px 0;
+  margin-left: 25px;
+}
+
+#view ul > li {
+  list-style-type: square outside none;
+}
+
+#view ol {
+  margin: 8px 0;
+  margin-left: 25px;
+}
+
+#view ol > li {
+  list-style-type: decimal outside none;
+}
+
+#view ul ul, #view ol ol, #view ul ol, #view ol ul {
+  margin-left: 10px;
+}
+
+#view h1 {
+  padding: 15px 20px;
+  padding-bottom: 4px;
+  font-size: 150%;
+  color: #555;
+  font-weight: bold;
+}
+
+#view h2 {
+  padding: 6px 20px;
+  padding-bottom: 2px;
+  font-size: 125%;
+  color: #888;
+  font-weight: bold;
+}
+
+#view h3 {
+  padding: 6px 20px;
+  padding-bottom: 1px;
+  font-size: 125%;
+  color: #888;
+  font-style: italic;
+}
+
+#view p + p {
+  margin-top: 4px;
+  text-indent: 25px;
+}
