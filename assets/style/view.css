@@ -76,7 +76,7 @@ html.view #view {
 }
 
 #view ul > li {
-  list-style-type: square outside none;
+  list-style-type: square;
 }
 
 #view ol {
